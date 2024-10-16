@@ -1,0 +1,15 @@
+[coordinator.api]
+endpoints.health = true
+endpoints.jobs = false
+endpoints.tasks = false
+endpoints.nodes = false
+endpoints.queues = false
+endpoints.metrics = false
+
+# cors middleware
+[middleware.web.cors]
+enabled = true
+origins = "*"
+methods = "*"
+credentials = false
+headers = "*"
